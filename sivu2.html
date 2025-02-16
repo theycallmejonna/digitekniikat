@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Digi Intro, HTML, CSS">
+    <meta name="description" content="A guide for building a responsive website">
+    <title>Jonna Hovinen</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!-- sivun nimi vasemmassa reunassa -->
+        <div class="site-title">Jonnan sivut</div>
+        <!-- valikko -->
+        <label class="menu-toggle" for="menu-checkbox">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <input type="checkbox" id="menu-checkbox" style="display: none;">
+        <!-- navigointi -->
+        <nav>
+            <ul>
+                <li><a href="index.html" class="button">Esittely</a></li>
+                <li><a href="sivu2.html" class="button">Elementtejä</a></li>
+                <li><a href="sivu3.html" class="button">Muuta</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="yhtenainenosio">
+            <div class="osio1">
+                <h2>Elementtejä, elementtejä, elementtejä...</h2>
+                <p>Ensimmäisellä sivulla pääsimme tarkastelemaan kuvakarusellia. Entä miltä näyttä taulukko? Taulukon
+                    (engl.
+                    table) on tarkoitus esittää annettua tietoa selkeässä ja järjestetyssä muodossa. Käytä taulukkoa,
+                    kun
+                    haluat näyttää tietoa, lukuja ja näiden vertailua eri riveillä ja sarakkeissa.</p>
+            </div>
+            <!--taulukko-->
+            <div class="taulukko">
+                <table>
+                    <caption>Ghiblin eri elokuvia ohjaajineen ja julkaisupäivineen</caption>
+                    <thead>
+                        <tr>
+                            <th>Elokuvan nimi</th>
+                            <th>Ohjaaja</th>
+                            <th>Ensi-ilta Japani</th>
+                            <th>Ensi-ilta Suomi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Naapurini Totoro</td>
+                            <td>Hayao Miyazaki</td>
+                            <td>16.4.1988</td>
+                            <td>29.9.2006</td>
+                        </tr>
+                        <tr>
+                            <td>Henkien kätkemä</td>
+                            <td>Hayao Miyazaki</td>
+                            <td>27.7.2001</td>
+                            <td>29.11.2002</td>
+                        </tr>
+                        <tr>
+                            <td>Kissojen valtakunta</td>
+                            <td>Hiroyuki Morita</td>
+                            <td>20.7.2002</td>
+                            <td>27.10.2005</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+
+            <div class="osio1">
+                <p>Minkälainen elementti on ruudukko? Ruudukon (engl. grid) tehtävänä on järjestellä sisältö
+                    verkkosivulla.
+                    Sillä voidaan
+                    järjestellä elementit selkeästi ja loogisesti.</p>
+            </div>
+            <h3 class="grid-title">Eri elokuvien nimiä</h3>
+            <div class="grid-container">
+                <div class="grid-item">Naapurini Totoro</div>
+                <div class="grid-item">Prinsessa Mononoke</div>
+                <div class="grid-item">Henkien kätkemä</div>
+                <div class="grid-item">Kissojen valtakunta</div>
+                <div class="grid-item">Liikkuva linna</div>
+                <div class="grid-item">Ponyo rantakalliolla</div>
+                <div class="grid-item">Poika ja haikara</div>
+            </div>
+            <p>Seuraavaksi tarkastelemme haitaria. Haitarin (engl. accordion) avulla voidaan piilottaa ja näyttää
+                sisältöä
+                tarpeen mukaan. Se
+                voi tehdä sivustosta selkeämmän ja helpommin luettavan. </p>
+            <h3 class="accordion-header">Studio Ghibli</h3>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <input type="radio" name="accordion" id="section1" checked>
+                    <label for="section1" class="accordion-title">Mikä on Studio Ghibli?</label>
+                    <div class="accordion-content">
+                        <p>Studio Ghibli on japanilainen vuonna 1985 perustettu animaatiostudio. Tyyliltään Ghibli
+                            anime-elokuvat ovat mielikuvituksellisia ja tunteellisia.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <input type="radio" name="accordion" id="section2">
+                    <label for="section2" class="accordion-title">Historiaa lyhyesti</label>
+                    <div class="accordion-content">
+                        <p>Studio Ghibli perustettiin virallisesti vuonna 1985 Hayao Miyazakin, Isao Takahatan ja
+                            tuottaja
+                            Toshio Suzukin johdolla, mutta sen tarina alkoi jo vuonna 1983, kun Miyazakin Tuulen laakson
+                            Nausicaä julkaistiin mangana ja myöhemmin elokuvana.<br>
+                            Studion varhaiset vuodet olivat taloudellisesti haastavia, sillä elokuvien tuotot kattoivat
+                            vain
+                            juuri ja juuri niiden kustannukset. Ghiblin toimintaperiaatteena oli tehdä yksi elokuva
+                            kerrallaan ja jatkaa, jos edellinen menestyi.<br>
+
+                            Sittemmin Ghibli on noussut yhdeksi maailman arvostetuimmista animaatiostudioista, ja sen
+                            tunnetuimpiin elokuviin kuuluvat Prinsessa Mononoke, Naapurini Totoro, Henkien kätkemä ja
+                            Liikkuva linna. Studio tunnetaan laadukkaasta käsin piirretystä animaatiosta, vahvoista
+                            tarinoista sekä periaatteestaan olla tekemättä jatko-osia elokuvilleen.<br>
+
+                            Studion nimi "Ghibli" viittaa Pohjois-Afrikan kuumaan tuuleen ja toisen maailmansodan
+                            italialaiseen tiedustelulentokoneeseen. Miyazaki, joka on ilmailuharrastaja, valitsi nimen
+                            symboloimaan uudenlaista elokuvatuotantoa, joka puhaltaisi uutta eloa animaatioon.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <input type="radio" name="accordion" id="section3">
+                    <label for="section3" class="accordion-title">Hauska fakta</label>
+                    <div class="accordion-content">
+                        <p>Studio Ghiblin maskotti, Totoro, esiintyy piilotettuna useissa Ghiblin elokuvissa.
+                            Totoro voidaan nähdä pehmoleluna tai taustaelementtinä elokuvissa kuten Kikin
+                            lähettipalvelu, Pom Poko ja Sydämen kuiskaus. Tämä leikkisä piilotettu yksityiskohta
+                            ilahduttaa faneja, jotka nauttivat piilotettujen Totorojen etsimisestä.</p>
+                    </div>
+                </div>
+            </div>
+            <p></p>
+
+        </div>
+
+    </main>
+    <footer>
+        <p>© 2025 Jonnan sivut</p>
+    </footer>
+
+</body>
+
+</html>

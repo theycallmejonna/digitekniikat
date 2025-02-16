@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Digi Intro, HTML, CSS">
+    <meta name="description" content="A guide for building a responsive website">
+    <title>Jonna Hovinen</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <!-- sivun nimi vasemmassa reunassa -->
+        <div class="site-title">Jonnan sivut</div>
+        <!-- valikko -->
+        <label class="menu-toggle" for="menu-checkbox">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <input type="checkbox" id="menu-checkbox" style="display: none;">
+        <!-- navigointi -->
+        <nav>
+            <ul>
+                <li><a href="index.html" class="button">Esittely</a></li>
+                <li><a href="sivu2.html" class="button">Elementtejä</a></li>
+                <li><a href="sivu3.html" class="button">Muuta</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!--tervetuloa-->
+        <div class="yhtenainenosio">
+            <div class="osio1">
+                <h1>Tervetuloa Jonnan sivuille!</h1>
+                <p>Näillä sivuilla on tarkoituksena testailla responsiivisen verkkosivun eri elementtejä.</p>
+            </div>
+            <!--tervetuloa jälkeen lyhyesti-->
+            <div class="osio2">
+                <h2>Minkälainen on responsiivinen verkkosivu?</h2>
+                <p>Verkkosivu on responsiivinen, kun sen ulkoasu ja toiminnallisuus mukautuvat automaattisesti
+                    erikokoisille
+                    näytöille, kuten tietokoneille, tableteille ja älypuhelimille. Tämä tarkoittaa, että sivun sisältö,
+                    kuten tekstit, kuvat ja navigointi, järjestyy ja skaalautuu niin, että se on aina helppokäyttöinen
+                    ja
+                    selkeä. Esimerkiksi responsiivisella verkkosivulla tekstit pysyvät luettavina ilman, että käyttäjän
+                    tarvitsee zoomata, ja valikot mukautuvat pienille näytöille sopiviksi, esimerkiksi muuttumalla
+                    hampurilaisvalikoksi mobiilissa.</p>
+                <p>Responsiivisille verkkosivuille on mahdollista luoda erilaisia elementtejä ja näiden verkkosivujen on
+                    tarkoitus esitellä niitä käytännössä. Esimerkiksi verkkosivuille voidaan luoda kuvakaruselli:</p>
+            </div>
+            <!--kuvakaruselli tähän-->
+            <div class="carousel">
+                <input type="radio" name="carousel" id="slide1" checked>
+                <input type="radio" name="carousel" id="slide2">
+                <input type="radio" name="carousel" id="slide3">
+
+                <div class="carousel-images">
+                    <div class="carousel-item">
+                        <img src="image1.jpeg" alt="Kuva 1">
+                        <div class="caption">Chihiro ja Haku Hayao Miyazakin ohjaamasta Studio Ghiblin anime-elokuvasta
+                            Henkien kätkemä, julkaisuvuosi 2001.</div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image2.jpeg" alt="Kuva 2">
+                        <div class="caption">Kasvoton, Chihiro ja Yubaba Hayao Miyazakin ohjaamasta Studio Ghiblin
+                            anime-elokuvasta Henkien kätkemä, julkaisuvuosi 2001.</div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image3.jpeg" alt="Kuva 3">
+                        <div class="caption">Satsuki ja Mei Totoron kanssa Hayao Miyazakin ohjaamassa Studio Ghiblin
+                            anime-elokuvassa Naapurini Totoro, julkaisuvuosi 1988.</div>
+                    </div>
+                </div>
+
+                <div class="carousel-nav">
+                    <label for="slide1"></label>
+                    <label for="slide2"></label>
+                    <label for="slide3"></label>
+                </div>
+            </div>
+            <div class="osio3">
+                <h2>Testataan lisää!</h2>
+                <p>Minkälainen elementti on ruudukko? Tai mitä tarkoittavat kortit ja haitari?</p>
+                <a href="sivu2.html" class="button2">Lisää elementtejä </a>
+            </div>
+
+        </div>
+
+    </main>
+
+    <!--footer-->
+    <footer>
+        <p>© 2025 Jonnan sivut</p>
+    </footer>
+
+</body>
+
+</html>
