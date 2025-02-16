@@ -251,19 +251,21 @@ footer {
     }
 }
 .yhtenainenosio {
-    background-color: #f2f2f2;
+    background-color: #e2e3e2;
     padding: 70px;
-    width: 90%;
-    max-width: 600px;
+    width: auto;
+    max-width: 80%;
     margin: 20px auto;
     text-align: center;
+    border-radius: 0px;
+    margin-bottom: 5px;
     border-radius: 15px;
 }
 .osio4 {
     background-color: #e2e3e2;
     padding: 70px;
     width: auto;
-    max-width: 60%;
+    max-width: 80%;
     margin: 20px auto;
     text-align: center;
     border-radius: 0px;
