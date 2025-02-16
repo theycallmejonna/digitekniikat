@@ -246,7 +246,7 @@ footer {
 /*tekstikenttien tyylittelyjä omilla oudoilla termeillä mikä varmaan huono mutta aka flex_container tms*/
 .yhtenainenosio {
     background-color: #f2f2f2;
-    padding: 10px;
+    padding: 70px;
     width: auto;
     max-width: 60%;
     margin: 20px auto;
