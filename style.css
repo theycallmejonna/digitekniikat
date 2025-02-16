@@ -270,6 +270,7 @@ footer {
 /*taulukko*/
 table {
     width: 80%;
+    overflow-x: auto;
     margin: auto;
     border-collapse: collapse;
     font-family: Arial, sans-serif;
