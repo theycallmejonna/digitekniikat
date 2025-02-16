@@ -128,7 +128,7 @@ header {
 .button:hover {
     background-color: #9B2728;
 }
-/* etusivun button*/
+/* etusivun alempi button*/
 .button2 {
     display: inline-flex;
     background-color: #40432a;
@@ -154,20 +154,21 @@ h1 {
     text-align: center;
     font-style: italic;
 }
-
+/*h2 tekstit*/
 h2 {
     font-family: 'Abril Fatface', serif;
     color: #40432a;
     text-align: center;
     
 }
+/*h3 tekstit*/
 h3 {
     font-family: 'Abril Fatface', serif;
     color: #40432a;
     text-align: center;
     
 }
-
+/* p tekstit*/
 p {
     font-family: 'Atkinson Hyperlegible', serif;
     color: #40432a;
@@ -181,7 +182,7 @@ p {
     margin: auto;
     overflow: hidden;
 }
-
+/*kuvakarusellin kuvat*/
 .carousel-images {
     display: flex;
     width: 100%;
@@ -201,7 +202,7 @@ p {
 input[type="radio"] {
     display: none;
 }
-
+/*kuvakarusellin navigointi*/
 .carousel-nav {
     display: flex;
     justify-content: center;
@@ -242,6 +243,7 @@ footer {
     color: white;
     border-top: 2px solid #e2e3e2;
 }
+/*tekstikenttien tyylittelyjä omilla oudoilla termeillä mikä varmaan huono mutta aka flex_container tms*/
 .yhtenainenosio {
     background-color: #f2f2f2;
     padding: 10px;
@@ -330,7 +332,7 @@ caption {
     font-size: 18px;
     border-radius: 5px;
 }
-
+/*haitari*/
 .accordion {
     width: 80%;
     max-width: 500px;
@@ -340,7 +342,7 @@ caption {
 .accordion-item {
     border-bottom: 1px solid #ccc;
 }
-
+/*haitarin otsikot*/
 .accordion-title {
     font-family: Arial, sans-serif;
     display: block;
@@ -363,7 +365,7 @@ caption {
     background: #f4f4f4;
 }
 
-/* Näytetään sisältö, kun radio-nappi on valittu */
+/* Näytetään sisältö, kun nappi on valittu */
 input[type="radio"] {
     display: none;
 }
@@ -371,7 +373,7 @@ input[type="radio"] {
 input[type="radio"]:checked+.accordion-title+.accordion-content {
     display: block;
 }
-
+/*haitarin päällä otsikko*/
 .accordion-header {
     font-family: 'Abril Fatface', serif;
     text-align: center;
@@ -415,7 +417,7 @@ input[type="radio"]:checked+.accordion-title+.accordion-content {
     color: #555;
     font-size: 16px;
 }
-
+/*kolmannen sivun korttien buttonit*/
 .button3 {
     display: inline-block;
     margin-top: 10px;
