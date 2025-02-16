@@ -244,6 +244,12 @@ footer {
     border-top: 2px solid #e2e3e2;
 }
 /*tekstikenttien tyylittelyjä omilla oudoilla termeillä mikä varmaan huono mutta aka flex_container tms*/
+@media (max-width: 768px) {
+    .yhtenainenosio {
+        width: 100%;
+        padding: 10px;
+    }
+}
 .yhtenainenosio {
     background-color: #e2e3e2;
     padding: 70px;
