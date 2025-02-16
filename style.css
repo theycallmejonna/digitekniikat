@@ -159,6 +159,7 @@ h2 {
     font-family: 'Abril Fatface', serif;
     color: #40432a;
     text-align: center;
+    font-style: italic;
     
 }
 /*h3 tekstit*/
@@ -212,7 +213,7 @@ input[type="radio"] {
 .carousel-nav label {
     width: 12px;
     height: 12px;
-    background-color: #e2e3e2;
+    background-color: #40432a;
     border-radius: 50%;
     margin: 0 5px;
     cursor: pointer;
