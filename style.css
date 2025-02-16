@@ -246,10 +246,12 @@ footer {
 /*tekstikenttien tyylittelyjä omilla oudoilla termeillä mikä varmaan huono mutta aka flex_container tms*/
 @media (max-width: 768px) {
     .yhtenainenosio {
-        max-width: 90%; /* Lisää leveyttä pienillä näytöillä */
-        padding: 40px; /* Vähennä paddingia mobiilissa */
+        width: 90%;  /* Ottaa 90% näytön leveydestä */
+        max-width: 400px; /* Mutta ei koskaan ylitä 400px */
+        padding: 30px; /* Pienennetään paddingia */
     }
 }
+
 .yhtenainenosio {
     background-color: #e2e3e2;
     padding: 70px;
